@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #BFDCAE; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #2E462B; 
+}
+
+
+#map {
+    width: 80%;
+    max-width: 800px;
+    height: 60vh;
+    margin: 20px auto;
+    border: 5px solid #2E462B; 
+    border-radius: 10px;
+}
+
+#info {
+    background-color: #2E462B; 
+    color: #FFF; 
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+#hint {
+    font-size: 18px;
+}
+
+#guesses {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#locationName {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#locationImage {
+    max-width: 100%;
+    max-height: 300px;
+}

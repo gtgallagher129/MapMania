@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!--
+Author: Grant Gallagher
+Class: Web & Distributed Programming
+Project: Map Mania  
+-->
+<head>
+    <title>MapMania</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <h1>Guess the National Park Game</h1>
+    <p>Drag along map and click on locations to guess them. <br>
+        The national Park may be anywhere around the world. </p>
+    <div id="map"></div>
+    <div id="info">
+        <div id="hint"></div>
+        <div id="guesses">Guesses: <span>0</span></div>
+        <div id="locationName"></div>
+        <img id="locationImage" src="" alt="Location Image">
+    </div>
+
+    
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWCneeLLl2YnkrDVZInGnKDchllJNJztU&callback=initMap&libraries=geometry,places" async defer></script>
+</body>
+</html>
